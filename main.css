@@ -1,3 +1,39 @@
 * {
     box-sizing: border-box;
 }
+
+#header {
+    
+
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+#nav-bar {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    
+}
+#header-img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+}
