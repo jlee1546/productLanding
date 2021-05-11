@@ -114,9 +114,8 @@ main {
 #contact {
     width: 85%;
     margin: 3rem auto;
+    max-width: 26rem;
 }
-
-
 
 .coupon {
     border: 1px dashed black;
@@ -210,17 +209,40 @@ input {
         width: 50%;
     }
 
+    #video {
+        width: 75%;
+        max-width: 35rem;
+    }
+
+    .video {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
     #contact {
         width: 50%;
+        max-width: 24rem;
     }
 
     
 }
 
 @media (min-width: 48rem) {
+    
+    .logo {
+        text-align: left;
+    }
+
+    .hero-image__container {
+        max-width: 72rem;
+        max-height: 35rem;
+    }
+    
     .products {
         display: flex;
         width: 80%;
+        max-width: 65rem;
         justify-content: space-between;
         margin: 0 auto;
 
@@ -235,6 +257,7 @@ input {
         flex-flow: row nowrap;
         width: 80%;
         margin: 0 auto;
+        max-width: 65rem;
     }
 
     .testimonial {
@@ -242,6 +265,8 @@ input {
         width: 30%;
 
     }
+
+
 }
 
 
